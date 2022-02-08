@@ -82,7 +82,7 @@ On the line that starts with `CMD_MOUNT` (line 7), change to this: \
 `CMD_MOUNT = "modprobe g_mass_storage file=/piflop.bin stall=0 ro=0 removable=1"` \
 On the line that starts with `WATCH_PATH` (line 11), change to this: \
 `WATCH_PATH = "/mnt/floppy"` \
-On the line that starts with `ACT_TIME_OUT` (line 13), change to this: (this decreases the idle wait time before the code unmounts and remounts the drive from 30 seconds to 2 seconds, you can experiment with different values) \
+On the line that starts with `ACT_TIME_OUT` (line 13), change to this: (this decreases the idle wait time before the code unmounts and remounts the drive from 30 seconds to 2 seconds, you can experiment with different values). \
 `ACT_TIME_OUT = 2` \
 Now save the file.
 
