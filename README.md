@@ -71,7 +71,7 @@ Mount: \
 
 ## Step 6: Automate Device Reconnect
 
-The USB device needs to be unmounted and remounted every time a file is changed for it to show up on the PC or floppy to USB emulator. We'll use (and slightly modify) the great script from the MagPi tutorial. \
+The USB device needs to be unmounted and remounted on the Windows PC (or emulator device) every time a file is changed for it to show up on the PC or floppy to USB emulator. We'll use (and slightly modify) the great script from the MagPi tutorial. \
 `sudo pip3 install watchdog` \
 `cd /usr/local/share` \
 `sudo wget http://rpf.io/usbzw -O usbshare.py` \
