@@ -117,3 +117,5 @@ It should be green.
 ## Step 7: Set up Your File Sharing of Choice
 
 The MagPi tutorial referenced in the beginning has a step on setting up Samba (Step 11), or you can also use NFS (nfs-kernel-server). Many good tutorials out there!
+
+## Step 8: Enjoy!
