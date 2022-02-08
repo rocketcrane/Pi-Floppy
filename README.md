@@ -38,7 +38,7 @@ Again, append to a new line at the end of the file: \
 
 ## Step 3: Container File
 
-For our floppy, we need at least 1.44MB * 100 = 144MB of space. This makes a 256MiB file: \
+For our floppy, we need at least 1.44MB * 100 = 144MB of space. The next line makes a 256MiB file: \
 `sudo dd bs=1M if=/dev/zero of=/piflop.bin count=256` \
 Format with FAT32: \
 `sudo mkdosfs /piflop.bin -F 32 -I` 
