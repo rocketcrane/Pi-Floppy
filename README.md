@@ -23,7 +23,7 @@ Note that while the special software that formats a USB drive for use with flopp
 
 ## Step 1: Set Up Your Pi
 
-I prefer to use the [Raspberry Pi Imager](https://www.raspberrypi.com/software/) to set up Raspbian. I use the extra settings in the Raspberry Pi Imager to preload my Wi-Fi, account, locale and SSH settings onto the Pi Zero 2 W.
+I prefer to use the [Raspberry Pi Imager](https://www.raspberrypi.com/software/) to set up Raspbian. I used the latest 32-bit Raspbian Bullseye release. I use the extra settings in the Raspberry Pi Imager to preload my Wi-Fi, account, locale and SSH settings onto the Pi Zero 2 W.
 
 This means I can directly SSH into my Pi after flashing the OS onto the SD card.
 
