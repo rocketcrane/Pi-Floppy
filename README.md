@@ -1,4 +1,4 @@
-# Pi-Floppy
+# Pi-Floppy v1.0
 
 ## Preface
 
