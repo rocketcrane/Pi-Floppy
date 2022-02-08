@@ -65,7 +65,7 @@ Make the directory to mount to: \
 And add it to fstab: \
 `sudo nano /etc/fstab` \
 Append to a new line at the end of the file: \
-`/piflop.bin	/mnt/usb_share	auto	users,umask=000 0 2` \
+`/piflop.bin	/mnt/floppy	auto	users,umask=000 0 2` \
 Mount: \
 `sudo mount -a`
 
