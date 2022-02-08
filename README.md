@@ -19,6 +19,8 @@ This tutorial helps you make a Raspberry Pi (tested on a Pi Zero 2 W) into a rem
 
 You will need a Pi and a PC with Windows.
 
+Note that while the special software that formats a USB drive for use with floppy-to-USB emulators creates 100 separate "floppys" on a single drive, this tutorial currently only allows you to use the first floppy-- index "000" on the emulator device.
+
 ## Step 1: Set Up Your Pi
 
 I prefer to use the [Raspberry Pi Imager](https://www.raspberrypi.com/software/) to set up Raspbian. I use the extra settings in the Raspberry Pi Imager to preload my Wi-Fi, account, locale and SSH settings onto the Pi Zero 2 W.
