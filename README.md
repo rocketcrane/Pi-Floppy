@@ -54,7 +54,7 @@ Now plug your Pi Zero 2 W into a Windows PC. Use the micro USB port in the middl
 Enable mass storage mode: \
 `sudo modprobe g_mass_storage file=/piflop.bin stall=0 ro=0 removable=1` \
 Your drive should show up in Windows. It might ask you to format it, if so then format with FAT32, quick format. \
-Now format the drive with the [USB_Floppy_Manager_v1.40i](https://drive.google.com/file/d/1C-k-ev3rfInV3rtoDJusstr8cn3QsRBf/view) tool. The link is to a Google Drive share that works as of 2022-02-07. \
+Now format the drive with the [USB_Floppy_Manager_v1.40i](https://drive.google.com/file/d/1C-k-ev3rfInV3rtoDJusstr8cn3QsRBf/view) tool. The link is to a Google Drive share (not mine) that works as of 2022-02-07. \
 Now we need to enable mass storage mode on boot: \
 `sudo nano /etc/rc.local` \
 Append to a new line **right above** `exit 0`: \
